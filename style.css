@@ -13,7 +13,9 @@ body {
 
 
 header {
-    background-color: white;
+    background-image: url(./images/8C0A56E1-7C9D-4A2C-ABC0-2F8F51CA895F.jpeg);
+    background-size: cover;
+    filter: blur(0);
     height: 80px;
     padding: 0 20px;
     display: flex;
@@ -102,6 +104,21 @@ header button:hover {
 
 main {
     min-height: 100vh;
-    width: 100vw;
-    background-color: white;
+    background-image: url(./images/CB9D0416-C1E3-4391-A1A7-AC48EA184388.jpeg);
+    /* filter: blur(radius); */
+    background-attachment: fixed;
+    
+}
+
+.home {
+    color: white;
+    padding: 90px 20px;
+
+}
+.home h2 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    
 }
