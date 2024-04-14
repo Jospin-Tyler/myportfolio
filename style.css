@@ -21,12 +21,12 @@ header {
     backdrop-filter: blur(27px);
     height: 80px;
     display: flex;
-
     align-items: center;
     justify-content: space-between;
     padding: 10px 7%;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -166,7 +166,7 @@ h2 {
 .card1 {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    height: 80vh;
+    min-height: 80vh;
     padding: 10px;
     width: 30%;
     position: relative;
@@ -252,6 +252,18 @@ h2 {
     .homeimg img {
         width: 350px;
         height: auto;
+
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 80%;
+        min-height: 50vh;
     }
 }
 
@@ -259,6 +271,8 @@ h2 {
     .homepage h1 {
         font-size: 1.2rem;
     }
+
+
 }
 
 
